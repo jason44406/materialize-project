@@ -39,6 +39,9 @@ gem 'bootsnap', '>= 1.1.0', require: false
 # Specify loofah due to security vulnerability
 gem 'loofah', ">= 2.2.3"
 
+# Specify rubyzip due to security vulnerability
+gem "rubyzip", ">= 1.2.2"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
